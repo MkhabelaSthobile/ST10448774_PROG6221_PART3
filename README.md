@@ -4,7 +4,7 @@ Programming 2A (PROG6221) - Part 3
 
 GitHub link: https://github.com/MkhabelaSthobile/ST10448774_PROG6221_PART3.git
 
-Video link: 
+Video link: https://youtu.be/LsUQbJuMYeM?si=Kg1ARDDfbe3BCEzT
 
 
 App instructions:
