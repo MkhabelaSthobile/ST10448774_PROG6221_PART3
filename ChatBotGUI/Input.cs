@@ -179,6 +179,7 @@ namespace ChatBotGUI
             else if (input.Contains("interested in") || input.Contains("i'm a") || input.Contains("i am a") || input.Contains("i'm on social media") || input.Contains("i use social media"))
             {
                 response.AppendLine(DetectUserPreferences(input));
+                LogAction($"User was adding user preferences");
             }
             else if (input.Contains("tell me more about"))
             {
@@ -261,7 +262,7 @@ namespace ChatBotGUI
             }
             else if (input.Contains("task assistant") || input.Contains("open task") || input.Contains("add a task"))
             {
-                LogAction("User requested to open the Task Assistant.");
+                LogAction("User requested to add a task.");
                 return "Opening Task Assistant...";
             }
             else if ((input.Contains("remind") || input.Contains("reminder") || input.Contains("add task") || input.Contains("set task")) && (input.Contains("to") || input.Contains("about")))
